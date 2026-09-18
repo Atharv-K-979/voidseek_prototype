@@ -82,7 +82,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const login = (email: string, role: User['role']) => {
     const names: Record<User['role'], string> = {
       'Individual': 'Rahul Verma',
-      'Enterprise Admin': 'Atharv',
+      'Enterprise Admin': 'Admin',
       'Forensic Auditor': 'Arjun Mehta',
     };
     setUser({

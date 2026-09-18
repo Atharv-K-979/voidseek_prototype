@@ -206,7 +206,7 @@ export const CERTIFICATES: Certificate[] = [
     hash: genHash('cert-002'),
     previousHash: genHash('cert-001'),
     blockIndex: 1,
-    operator: 'Atharv (Enterprise Admin)',
+    operator: 'Admin (Enterprise Admin)',
     status: 'verified',
     signature: `MEUCIQDpN7rK3sL9tQ2vA8mB4cE6wF1xY5hG0jM2nP3oR7e\nAiBkT9uV4wX8yZ2nS6kR1mB5cL3aP7eQ4dF0hN2gM6oJ9s==`,
     filesRecovered: 1847,

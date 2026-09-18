@@ -596,14 +596,14 @@ export default function Landing() {
                     </div>
                   </div>
                   <p className="text-slate-600 text-xs mb-3.5 leading-relaxed">
-                    Access the preloaded forensic demo environment with <strong>Atharv (Enterprise Admin)</strong> credentials.
+                    Access the preloaded forensic demo environment with <strong>Admin (Enterprise Admin)</strong> credentials.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-2">
                     <button
                       onClick={handleDemoLaunch}
                       className="flex-1 px-4 py-2.5 bg-[#1E3A8A] hover:bg-[#1d4ed8] text-white font-semibold rounded-xl text-xs transition-colors flex items-center justify-center gap-1.5 shadow-md shadow-blue-900/20 cursor-pointer"
                     >
-                      <Zap className="w-3.5 h-3.5" /> Instant Launch (Atharv)
+                      <Zap className="w-3.5 h-3.5" /> Instant Launch (Admin)
                     </button>
                     <Link
                       to="/login"
